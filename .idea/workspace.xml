@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="620fa5b4-0015-4366-a829-6a260b043fc9" name="Default" comment="" />
+    <list default="true" id="620fa5b4-0015-4366-a829-6a260b043fc9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice_interview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_interview.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,13 +20,34 @@
       <file leaf-file-name="practice_interview.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/practice_interview.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="310">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#231#240#0" expanded="true" />
                 <element signature="e#584#593#0" expanded="true" />
                 <element signature="e#940#949#0" expanded="true" />
+                <element signature="e#1464#1473#0" expanded="true" />
+                <element signature="e#1532#1541#0" expanded="true" />
+                <element signature="e#1546#1569#0" expanded="true" />
+                <element signature="e#1635#1658#0" expanded="true" />
+                <element signature="e#1736#1759#0" expanded="true" />
+                <element signature="e#1813#1821#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#77#78#0" expanded="true" />
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,13 +68,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/src/Person.java" />
         <option value="$PROJECT_DIR$/src/practice_interview.java" />
+        <option value="$PROJECT_DIR$/src/Person.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="199" />
-    <option name="y" value="1117" />
+    <option name="x" value="200" />
+    <option name="y" value="1123" />
     <option name="width" value="1400" />
     <option name="height" value="984" />
   </component>
@@ -80,6 +108,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -166,7 +199,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="199" y="1117" width="1400" height="984" extended-state="0" />
+    <frame x="200" y="1123" width="1400" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -181,7 +214,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -210,6 +243,12 @@
             <element signature="e#231#240#0" expanded="true" />
             <element signature="e#584#593#0" expanded="true" />
             <element signature="e#940#949#0" expanded="true" />
+            <element signature="e#1464#1473#0" expanded="true" />
+            <element signature="e#1532#1541#0" expanded="true" />
+            <element signature="e#1546#1569#0" expanded="true" />
+            <element signature="e#1635#1658#0" expanded="true" />
+            <element signature="e#1736#1759#0" expanded="true" />
+            <element signature="e#1813#1821#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -221,15 +260,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#77#78#0" expanded="true" />
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/practice_interview.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="310">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#231#240#0" expanded="true" />
             <element signature="e#584#593#0" expanded="true" />
             <element signature="e#940#949#0" expanded="true" />
+            <element signature="e#1464#1473#0" expanded="true" />
+            <element signature="e#1532#1541#0" expanded="true" />
+            <element signature="e#1546#1569#0" expanded="true" />
+            <element signature="e#1635#1658#0" expanded="true" />
+            <element signature="e#1736#1759#0" expanded="true" />
+            <element signature="e#1813#1821#0" expanded="true" />
           </folding>
         </state>
       </provider>

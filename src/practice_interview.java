@@ -1,11 +1,11 @@
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class practice_interview {
 
     public static void main(String[] args){
+
+        //SET
 
         final Set<Integer> hashSet = new HashSet<Integer>(1_000_000);
 
@@ -38,5 +38,32 @@ public class practice_interview {
 
         final Long endLinkedHashSetTime = System.currentTimeMillis();
         System.out.println("Time spent by LinkedHashSet: " + (endLinkedHashSetTime - startLinkedHashSetTime));
+
+
+
+        //LIST
+
+
+        final List<Integer> arrayList = new ArrayList<Integer>();
+        final List<Integer> linkedList = new LinkedList<Integer>();
+
+
+
+        //MAP
+
+        final Map<Integer, List<String>> hashMap = new HashMap<Integer, List<String>>();
+        final Map<Integer, List<String>> treeMap = new TreeMap<Integer, List<String>>();
+        final Map<Integer, List<String>> linkedHashMap = new LinkedHashMap<Integer, List<String>>();
+
+
+        //StreamAPI
+
+        List<Person> people = new ArrayList<Person>();
+        List<String> names = people.stream().map(Person::getName).collect(Collectors.toList());
+
+
+
+
+
     }
 }
