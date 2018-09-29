@@ -8,6 +8,7 @@ import java.util.regex.*;
 
 public class SockMerchant {
 
+    // Time Complexity = O(n)
     // Complete the sockMerchant function below.
     static int sockMerchant(int n, int[] ar) {
 
